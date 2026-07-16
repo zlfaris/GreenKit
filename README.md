@@ -65,4 +65,4 @@ Untuk memastikan keandalan sistem dalam melayani transaksi produk berkelanjutan 
 
 ---
 
-> © 2026 GreenKit Development Team. Menciptakan bumi yang lebih bersih dan sehat bagi generasi mendatang.
+> © 2026 GreenKit Development Team. Menciptakan bumi yang lebih bersih dan sehat.
