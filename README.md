@@ -45,9 +45,9 @@ Aplikasi e-commerce terintegrasi ini dibangun menggunakan arsitektur Laravel yan
 - **Comprehensive Order History Management:** Halaman riwayat transaksi belanja yang mendokumentasikan log pesanan selesai (*Completed Orders*), lengkap dengan kartu ringkasan item, visual *thumbnail* produk, akumulasi biaya, status tanda terima, dan kontrol manajemen arsip data.
 
 ### 👑 Dashboard Administrasi (Admin & Backoffice Panel)
-- **Sales Analytics & Overview:** Menyajikan visualisasi metrik performa toko secara *real-time*, meliputi data total pendapatan (*Total Revenue*), pesanan aktif (*Active Orders*), peringatan stok menipis, serta grafik analisis penjualan berkala.[cite: 1]
-- **Order Management:** Pengelolaan transaksi pelanggan yang terpusat untuk mempermudah pencarian berdasarkan *Order ID*, validasi bukti pembayaran, serta pemrosesan status pengiriman pesanan.[cite: 1]
-- **Product Inventory Management:** Panel manajemen inventaris berbasis operasional CRUD penuh untuk memperbarui data produk, harga, visualisasi gambar, dan jumlah stok secara langsung.[cite: 1]
+- **Sales Analytics & Overview:** Menyajikan visualisasi metrik performa toko secara *real-time*, meliputi data total pendapatan (*Total Revenue*), pesanan aktif (*Active Orders*), peringatan stok menipis, serta grafik analisis penjualan berkala.
+- **Order Management:** Pengelolaan transaksi pelanggan yang terpusat untuk mempermudah pencarian berdasarkan *Order ID*, validasi bukti pembayaran, serta pemrosesan status pengiriman pesanan.
+- **Product Inventory Management:** Panel manajemen inventaris berbasis operasional CRUD penuh untuk memperbarui data produk, harga, visualisasi gambar, dan jumlah stok secara langsung.
 ---
 
 ## 🛠️ Spesifikasi Teknologi
