@@ -44,7 +44,7 @@ Aplikasi e-commerce terintegrasi ini dibangun menggunakan arsitektur Laravel yan
 - **Real-Time Order Status Tracking:** Integrasi komponen *visual stepper progress* interaktif pada panel *Active Orders* pelanggan untuk memantau tahapan proses pesanan secara berkala (Validasi Pembayaran, Pesanan Diproses, Sedang Dikirim, hingga Tiba di Tujuan).
 - **Comprehensive Order History Management:** Halaman riwayat transaksi belanja yang mendokumentasikan log pesanan selesai (*Completed Orders*), lengkap dengan kartu ringkasan item, visual *thumbnail* produk, akumulasi biaya, status tanda terima, dan kontrol manajemen arsip data.
 
-### 👑 2. Dashboard Administrasi (Admin & Backoffice Panel)
+### 👑 Dashboard Administrasi (Admin & Backoffice Panel)
 - **Dashboard Overview & Sales Analytics:** Panel kendali utama yang menyajikan metrik performa toko secara *real-time*, mencakup akumulasi total pendapatan (*Total Revenue*), jumlah pesanan aktif (*Active Orders*), pengingat stok menipis (*Low Stock Alerts*), serta grafik analisis penjualan interaktif (*Sales Analytics Graph*) berbasis filter periodik (Harian, Mingguan, Bulanan, Tahunan).
 - **Centralized Order Management:** Sistem pengelolaan transaksi pelanggan yang dilengkapi fitur pencarian berdasarkan ID Pesanan (*Order ID*), penyaringan status logistik, pemantauan status validasi pembayaran (Awaiting Validation / Paid), dan kontrol eksekusi pemrosesan pesanan.
 - **Dynamic Product Inventory Management:** Kendali manajemen produk berbasis operasi CRUD (*Create, Read, Update, Delete*) penuh, memungkinkan admin menambahkan varian produk baru, memanipulasi label harga, mengorganisasikan aset gambar, serta memperbarui kuantitas indikator stok secara langsung.
