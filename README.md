@@ -45,10 +45,9 @@ Aplikasi e-commerce terintegrasi ini dibangun menggunakan arsitektur Laravel yan
 - **Comprehensive Order History Management:** Halaman riwayat transaksi belanja yang mendokumentasikan log pesanan selesai (*Completed Orders*), lengkap dengan kartu ringkasan item, visual *thumbnail* produk, akumulasi biaya, status tanda terima, dan kontrol manajemen arsip data.
 
 ### 👑 Dashboard Administrasi (Admin & Backoffice Panel)
-- **Dashboard Overview & Sales Analytics:** Panel kendali utama yang menyajikan metrik performa toko secara *real-time*, mencakup akumulasi total pendapatan (*Total Revenue*), jumlah pesanan aktif (*Active Orders*), pengingat stok menipis (*Low Stock Alerts*), serta grafik analisis penjualan interaktif (*Sales Analytics Graph*) berbasis filter periodik (Harian, Mingguan, Bulanan, Tahunan).
-- **Centralized Order Management:** Sistem pengelolaan transaksi pelanggan yang dilengkapi fitur pencarian berdasarkan ID Pesanan (*Order ID*), penyaringan status logistik, pemantauan status validasi pembayaran (Awaiting Validation / Paid), dan kontrol eksekusi pemrosesan pesanan.
-- **Dynamic Product Inventory Management:** Kendali manajemen produk berbasis operasi CRUD (*Create, Read, Update, Delete*) penuh, memungkinkan admin menambahkan varian produk baru, memanipulasi label harga, mengorganisasikan aset gambar, serta memperbarui kuantitas indikator stok secara langsung.
-  
+- **Sales Analytics & Overview:** Menyajikan visualisasi metrik performa toko secara *real-time*, meliputi data total pendapatan (*Total Revenue*), pesanan aktif (*Active Orders*), peringatan stok menipis, serta grafik analisis penjualan berkala.[cite: 1]
+- **Order Management:** Pengelolaan transaksi pelanggan yang terpusat untuk mempermudah pencarian berdasarkan *Order ID*, validasi bukti pembayaran, serta pemrosesan status pengiriman pesanan.[cite: 1]
+- **Product Inventory Management:** Panel manajemen inventaris berbasis operasional CRUD penuh untuk memperbarui data produk, harga, visualisasi gambar, dan jumlah stok secara langsung.[cite: 1]
 ---
 
 ## 🛠️ Spesifikasi Teknologi
