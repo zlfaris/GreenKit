@@ -1,58 +1,68 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🌿 GreenKit: E-Commerce Platform for Sustainable Lifestyle
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Framework](https://img.shields.io/badge/FRAMEWORK-Laravel%20%7C%20PHP-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Styling](https://img.shields.io/badge/STYLING-Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Frontend](https://img.shields.io/badge/FRONTEND-Alpine.js-8BC0D0?style=for-the-badge&logo=alpinedotjs&logoColor=white)
+![Database](https://img.shields.io/badge/DATABASE-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![QA Testing](https://img.shields.io/badge/QA%20TESTING-Testsprite%20Automated-orange?style=for-the-badge)
 
-## About Laravel
+## 📌 Latar Belakang & Filosofi
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**GreenKit** berawal dari kepedulian sederhana terhadap meningkatnya penggunaan produk sekali pakai yang berdampak besar pada kelestarian lingkungan. Kami percaya bahwa setiap orang mampu memberikan kontribusi positif bagi bumi melalui pilihan-pilihan kecil yang praktis dan mudah diterapkan dalam kehidupan sehari-hari.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Kami menghadirkan platform digital **GreenKit** untuk menyediakan rangkaian produk *reusable* berkualitas tinggi yang dirancang khusus untuk menemani aktivitas harian masyarakat, sekaligus menekan konsumsi plastik sekali pakai yang terus menumpuk di ekosistem kita.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Platform ini dapat diakses secara langsung melalui: **[https://greenkitofficial.my.id](https://greenkitofficial.my.id)**
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🎯 Visi Kami Untuk Bumi yang Lebih Baik
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. **Mendorong Gaya Hidup Ramah Lingkungan:** Membantu masyarakat beralih dari kebiasaan menggunakan plastik sekali pakai menuju kebiasaan yang lebih berkelanjutan dengan alternatif produk yang aman dan mudah digunakan.
+2. **Mengurangi Jejak Plastik di Indonesia:** Berkomitmen secara aktif meminimalisasi jumlah sampah plastik yang mencemari lingkungan tanah, laut, dan makhluk hidup di sekitarnya melalui budaya penggunaan kembali (*reusable*).
+3. **Mempermudah Akses Solusi Sustainable:** Menjadikan produk ramah lingkungan lebih terjangkau, mudah ditemukan, dan dapat diakses oleh siapa saja tanpa hambatan operasional.
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+---
 
-## Agentic Development
+## ✨ Arsitektur & Fitur Aplikasi (User Journey)
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+Aplikasi e-commerce terintegrasi ini dibangun menggunakan arsitektur Laravel yang kokoh dengan fokus pada kenyamanan pelanggan dalam mengadopsi produk berkelanjutan:
 
-```bash
-composer require laravel/boost --dev
+### 🔒 Autentikasi Pengguna & Keamanan
+- **Secure Authentication Access:** Sistem masuk log (*login*) yang memanfaatkan fitur autentikasi bawaan Laravel yang aman untuk melindungi integritas data akun pelanggan.
+- **CSRF & Access Protection:** Implementasi *Middleware* pengaman rute bawaan Laravel guna mencegah eror otorisasi (*403 Forbidden*) serta serangan CSRF (*419 Page Expired*).
 
-php artisan boost:install
-```
+### 🛍️ Katalog Produk & Detail Spesifikasi
+- **Interactive Product Catalog Display:** Etalase interaktif yang memuat visualisasi produk ramah lingkungan secara utuh tanpa kendala *broken layout*.
+- **Comprehensive Specification Validation:** Halaman detail produk yang menyajikan informasi harga, sisa stok, varian produk, serta deskripsi material secara transparan melalui integrasi Blade dan Alpine.js.
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+### 🛒 Manajemen Keranjang & Alur Checkout
+- **Real-Time Cart Calculation:** Fitur penambahan item, modifikasi kuantitas belanja, dan penghapusan produk dengan kalkulasi subtotal instan secara reaktif memanfaatkan kapabilitas Alpine.js tanpa memuat ulang halaman (*no full page reload*).
+- **Integrated Shipping Form:** Formulir pengiriman data logistik yang efisien untuk akurasi alamat pelanggan sebelum dialihkan ke gerbang pembayaran.
 
-## Contributing
+### 📊 Manajemen Pesanan & Dashboard Pelanggan (Fitur Baru)
+- **Real-Time Order Status Tracking:** Integrasi komponen *visual stepper progress* interaktif pada panel *Active Orders* pelanggan untuk memantau tahapan proses pesanan secara berkala (Validasi Pembayaran, Pesanan Diproses, Sedang Dikirim, hingga Tiba di Tujuan).
+- **Comprehensive Order History Management:** Halaman riwayat transaksi belanja yang mendokumentasikan log pesanan selesai (*Completed Orders*), lengkap dengan kartu ringkasan item, visual *thumbnail* produk, akumulasi biaya, status tanda terima, dan kontrol manajemen arsip data.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## 🛠️ Spesifikasi Teknologi
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- **Backend Platform:** Laravel Framework (PHP)
+- **Frontend Engine:** Tailwind CSS & Alpine.js
+- **Database Architecture:** MySQL Management System
+- **Quality Assurance Testing:** Automated E2E & Visual Testing via Testsprite Tool
+- **Server Deployment:** cPanel Environment with LiteSpeed Web Server and Symlink Storage
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 🚨 Penjaminan Mutu (Quality Assurance)
 
-## License
+Untuk memastikan keandalan sistem dalam melayani transaksi produk berkelanjutan secara massal, seluruh komponen antarmuka pengguna (*User View*) telah diaudit dan diuji secara berkala menggunakan framework otomatisasi berbasis AI untuk mendeteksi:
+- Galat kode status HTTP (403 Forbidden, 419 Page Expired, 500 Internal Server Error).
+- Kerusakan visual tata letak aset (*broken layout/CSS bug*).
+- Kegagalan pemuatan berkas visual gambar (*broken image asset*).
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+> © 2026 GreenKit Development Team. Menciptakan bumi yang lebih bersih dan sehat bagi generasi mendatang.
