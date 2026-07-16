@@ -1,4 +1,4 @@
-# 🌿 GreenKit: E-Commerce Platform for Sustainable Lifestyle
+# GreenKit: E-Commerce Platform for Sustainable Lifestyle
 
 ![Framework](https://img.shields.io/badge/FRAMEWORK-Laravel%20%7C%20PHP-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![Styling](https://img.shields.io/badge/STYLING-Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
